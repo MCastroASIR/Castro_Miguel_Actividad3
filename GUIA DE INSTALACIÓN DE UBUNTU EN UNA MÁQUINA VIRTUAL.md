@@ -9,8 +9,9 @@ Esta guía explica cómo instalar Ubuntu Desktop en una máquina virtual utiliza
     - [🌐3.3 Configurar el adaptador de red virtual](#33-configurar-el-adaptador-de-red-virtual)
     - [💿3.4 Instalar Ubuntu](#34-instalar-ubuntu)
   - [✅4. Comprobación de la instalación](#4-comprobación-de-la-instalación)
-  - [🛠️5. Resolución de problemas](#️5-resolución-de-problemas)
-  - [🔗6. Referencias](#6-referencias)
+  - [💻 5. Introducción a los comandos básicos de Linux](#5-introducción-a-los-comandos-básicos-de-linux)
+  - [🛠️6. Resolución de problemas](#️6-resolución-de-problemas)
+  - [🔗7. Referencias](#7-referencias)
 ## 📖1. Introducción
 Ubuntu es un sistema operativo basado en Linux, de código abierto y utilizado tanto en ordenadores personales como en servidores.
 Una máquina virtual es un ordenador simulado mediante un programa. Permite ejecutar otro sistema operativo dentro del ordenador habitual, utilizando parte de sus recursos, como la memoria RAM, el procesador y el almacenamiento.
@@ -149,9 +150,29 @@ sudo apt update
 sudo apt upgrade
 ```
 El primer comando actualiza la información de los paquetes disponibles y el segundo instala las actualizaciones correspondientes. Puede solicitar la contraseña del usuario (no aparece mientras la escribes).
-
-
-##  🛠️5. Resolución de problemas
+## 💻 5. Introducción a los comandos básicos de Linux
+Una vez instalado Ubuntu, es recomendable familiarizarse con la terminal, una herramienta que permite interactuar con el sistema operativo mediante comandos de texto.
+Para abrirla, pulsa las teclas **Ctrl + Alt + T**. A continuación, puedes probar algunos de los comandos básicos de Linux:
+| Comando | Función |
+|---|---|
+| `pwd` | Muestra la ruta del directorio actual. |
+| `ls` | Muestra los archivos y carpetas del directorio. |
+| `cd` | Permite cambiar de directorio. |
+| `mkdir` | Crea una nueva carpeta. |
+| `clear` | Limpia el contenido visible de la terminal. |
+| `whoami` | Muestra el nombre del usuario actual. |
+Por ejemplo, para crear una carpeta llamada `Practica` y acceder a ella, ejecuta los siguientes comandos:
+```bash
+mkdir Practica
+cd Practica
+```
+También es importante conocer el comando `sudo`, que permite ejecutar determinadas operaciones con permisos de administrador. Por ejemplo:
+```bash
+sudo apt update
+```
+Este comando actualiza la información de los paquetes disponibles en los repositorios de Ubuntu.
+Estos comandos constituyen una primera aproximación al uso de la terminal y permiten realizar algunas tareas básicas de administración y navegación en Linux.
+##  🛠️6. Resolución de problemas
 Durante la instalación pueden aparecer algunos problemas. La siguiente tabla recoge situaciones habituales y sus posibles soluciones.
 | Problema | Posible Causa | Solución |
 |-|-|-|
@@ -162,7 +183,7 @@ Durante la instalación pueden aparecer algunos problemas. La siguiente tabla re
 | No se puede iniciar sesión | Contraseña incorrecta | Comprobar usuario y contraseña introducidos |
 
 Si el problema continua, consulta la documentación oficial de Ubuntu o VirtualBox para encontrar una solución especifica.
-## 🔗6. Referencias
+## 🔗7. Referencias
 * [Página oficial de Ubuntu Desktop](https://ubuntu.com/desktop)
 * [Tutorial oficial para ejecutar Ubuntu en VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox)
 * [Página oficial para descargar VirtualBox](https://www.virtualbox.org/wiki/Downloads)
