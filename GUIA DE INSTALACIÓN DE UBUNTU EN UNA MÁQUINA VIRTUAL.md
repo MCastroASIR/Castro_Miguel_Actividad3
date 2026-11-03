@@ -348,3 +348,9 @@ Si el problema continúa, consulta la documentación oficial de Ubuntu o Virtual
 Esta documentación se ha elaborado utilizando Markdown.
 El control de versiones se realiza mediante Git
 y el repositorio remoto se encuentra alojado en GitHub.
+
+## Próximas mejoras
+
+* Añadir un glosario de términos
+* Añadir más comandos básicos de Linux
+* añadir un apartado de consejos y buenas prácticas
