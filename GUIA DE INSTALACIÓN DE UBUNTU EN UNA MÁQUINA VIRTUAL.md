@@ -19,6 +19,7 @@ Esta guía explica cómo instalar Ubuntu Desktop en una máquina virtual utiliza
     - [🔐 5.5 Permisos de administrador en Linux](#-55-permisos-de-administrador-en-linux)
   - [🛠️ 6. Resolución de problemas](#️-6-resolución-de-problemas)
   - [🔗 7. Referencias](#-7-referencias)
+  - [💡 8. Información del proyecto](#-8-información-del-proyecto)
 
 ---
 
@@ -341,3 +342,9 @@ Si el problema continúa, consulta la documentación oficial de Ubuntu o Virtual
 - [Tutorial oficial para ejecutar Ubuntu en VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox)
 - [Página oficial para descargar VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Documentación oficial de Ubuntu](https://documentation.ubuntu.com/desktop/)
+
+## 💡 8. Información del proyecto
+
+Esta documentación se ha elaborado utilizando Markdown.
+El control de versiones se realiza mediante Git
+y el repositorio remoto se encuentra alojado en GitHub.
